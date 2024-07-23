@@ -218,4 +218,8 @@ body {
         padding: 15px;
         width: 100%;
     }
+
+    .mainContent .Storage div.info{
+        flex-wrap: wrap;
+    }
 }
