@@ -227,5 +227,6 @@ body {
 
     .mainContent .Storage div.info{
         flex-wrap: wrap;
+        margin: 5%;
     }
 }
