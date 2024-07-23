@@ -224,4 +224,8 @@ body {
         margin-right: 5%;  
         width: 90%;
     }
+
+    .mainContent .Storage div.info{
+        flex-wrap: wrap;
+    }
 }
