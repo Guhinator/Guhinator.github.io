@@ -126,13 +126,7 @@ body {
 }
 
 /*style for all of the extra content on storage page*/
-.mainContent .Storage div{
-    display: flex;
-    width: 80%;
-    margin-left: 10%;
-    justify-content: space-around;
-    height: fit-content;
-}
+
 
 .mainContent .Storage div.storageimages{
     display: flex;
@@ -176,6 +170,18 @@ body {
     background-color:crimson;
     font-size: 22.5px;
     padding: 30px;
+    border-radius: 15px;
+}
+
+.mainContent .Storage div.descriptor{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.mainContent .Storage div.descriptor p{
+    background-color: violet;
     border-radius: 15px;
 }
 

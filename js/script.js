@@ -59,8 +59,10 @@ function hamburgerFunc(variable) {
 
 
 //used to show the pros and cons of each storage devices type
+//and update descriptor to show what player is hovering over
 for (let page of infopage) {
     page.addEventListener("click", proconFunc.bind(null));
+    page.addEventListener("mouseover", textUpdate.bind(null));
 }
 
 //function is declared seprately to prevent
@@ -69,13 +71,13 @@ for (let page of infopage) {
     semantics." warning*/
 function proconFunc(variable) {
     hidepages(document.querySelectorAll(".mainContent div.Storage div.info"));
-    console.log(variable.target.className);
     let onepage=document.querySelector(".mainContent div.Storage div."+variable.target.classList);
     onepage.style.display="flex";
 }
 
-
-
+function textUpdate(variable) {
+    document.querySelector(".mainContent .Storage div.descriptor p").innerHTML = variable.target.classList;
+}
 
 
 
@@ -104,9 +106,6 @@ function hideallmainpages() { //function to hide all main pages
         onepage.style.display="none"; //hide it
     }
 }
-
-
-
 
 function show(page) { //function to show selected page no
     hideallmainpages();
