@@ -210,13 +210,13 @@ body {
     .mainContent .Storage div .pro{
         font-size: 20px;
         padding: 15px;
-        width: 30%;
+        width: 100%;
     }
     
     .mainContent .Storage div .con{
         font-size: 20px;
         padding: 15px;
-        width: 30%;
+        width: 100%;
     }
 
     .mainContent .Storage div.storageimages{
