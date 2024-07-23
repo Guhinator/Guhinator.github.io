@@ -209,13 +209,11 @@ body {
     /*style for the 3 storage types in responsive*/
     .mainContent .Storage div .pro{
         font-size: 20px;
-        padding: 15px;
         width: 100%;
     }
     
     .mainContent .Storage div .con{
         font-size: 20px;
-        padding: 15px;
         width: 100%;
     }
 
