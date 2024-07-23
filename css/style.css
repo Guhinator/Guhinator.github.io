@@ -214,4 +214,16 @@ body {
     .responsive-menu ul li:hover{
         background-color: aqua;
     }
+
+    .mainContent .Storage div .pro{
+        font-size: 20px;
+        padding: 15px;
+        width: 25%;
+    }
+    
+    .mainContent .Storage div .con{
+        font-size: 20px;
+        padding: 15px;
+        width: 25%;
+    }
 }
