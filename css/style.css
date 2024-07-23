@@ -91,12 +91,12 @@ body {
     transition: opacity 1s;
 }  
 
-.mainContent .RAM img{
-    margin-left: 10%;
-    margin-right: 10%;
+.mainContent .qr_code img{
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 80%;
+    width: 50%;
     opacity: 100%;
     transition: opacity 1s;
 }  
