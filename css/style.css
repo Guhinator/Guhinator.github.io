@@ -91,6 +91,16 @@ body {
     transition: opacity 1s;
 }  
 
+.mainContent .RAM img{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    opacity: 100%;
+    transition: opacity 1s;
+}  
+
 .mainContent .unselected img{
     opacity: 0%;
 }
