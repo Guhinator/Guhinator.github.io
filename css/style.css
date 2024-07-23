@@ -89,17 +89,7 @@ body {
     width: 40%;
     opacity: 100%;
     transition: opacity 1s;
-}
-
-.mainContent .RAM img{
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 40%;
-    opacity: 100%;
-    transition: opacity 1s;
-}   
+}  
 
 .mainContent .unselected img{
     opacity: 0%;
@@ -215,15 +205,22 @@ body {
         background-color: aqua;
     }
 
+
+    /*style for the 3 storage types in responsive*/
     .mainContent .Storage div .pro{
         font-size: 20px;
         padding: 15px;
-        width: 25%;
+        width: 30%;
     }
     
     .mainContent .Storage div .con{
         font-size: 20px;
         padding: 15px;
-        width: 25%;
+        width: 30%;
+    }
+
+    .mainContent .Storage div.storageimages{
+        margin-left: 0;
+        margin-right: 0;  
     }
 }
